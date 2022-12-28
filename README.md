@@ -1,5 +1,5 @@
 ## Ticketing Website
----
+
 This is guided project for SoloLearn in the course ***Web Development Fundamentals***
 
 "The Web Development Fundamentals course covers the basic core technologies needed
