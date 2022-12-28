@@ -1,0 +1,74 @@
+<html>
+    <body>
+        <section>
+            <h1>The Eiffel Tower</h1>
+
+            <section id="conainer">
+                <!--Image of Eifeel Tower-->
+                <a href='https://sololearnassets.azureedge.net/eiffel-tower.jpg'
+                target='_blank' id='eiffel'> 
+                <img scr='https://sololearnassets.azureedge.net/eiffel-tower.jpg'
+                        alt='eiffel-tower'
+                        width='30%'
+                        aling='right'></a>
+
+                <!--General information-->
+                <p>The <strong>Eiffel Tower</strong> is a wrought-iron tower that
+                    stands 1,063 ft (324 m) tall in <strong>Paris</strong>.</p>
+
+                <p>Currently, the Eiffel Tower is the most-visited monument
+                    in the world with over 7 million visitors a year.</p>
+                
+                <p>Visitors can choose to go up using the Tower lift or
+                    the stairs. There are 1,665 steps to the top.</p>
+            </section>
+
+            <section>
+                <p><b>Transport:</b><br>
+                    <ul>
+                        <li>Bus: lines 42, 69, 72, and 87.</li>
+                        <li>Metro: Trocadero, Ecole militaire.</li>
+                        <li>Train: Champ de Mars - Tour Eiffel, line C.</li>
+                    </ul>
+                </p>
+            </section>
+
+            <section>
+                <!--Prices table for access-->
+                <p id='prices'>Prices:</p>
+                <p><table border='1'>
+                    <tr> <th>Category</th> <th>Price</th> </tr>
+                    <tr> <td>Adults</td> <td>$12</td> </tr>
+                    <tr> <td>Children</td> <td>$5</td> </tr>
+                    </table>
+                </p>
+            </section>
+        </section> 
+
+        <section>
+            <!--Form to buy tickets-->
+            <form id='buy'>
+                <div class="form-section">
+                    <label for='Adults'>Adults</label> 
+                    <br>
+                    <input type='number' id='Adults'>
+                </div>
+
+                <div class="form-section">
+                    <label for='Children'>Children</label>
+                    <br>
+                    <input type='number' id='Children'>
+                </div>
+
+                <div class="form-section">
+                    <input type='button' id='btn' value='Buy'>
+                </div>
+            </form>
+        </section>
+        
+        <footer>
+            <p>&copy;Copyright</p>
+        </footer>
+        
+    </body>
+</html>
